@@ -270,7 +270,7 @@ class PhoneActionManager(private val context: Context) {
     fun openBluetoothSettings() = openSettingsScreen(Settings.ACTION_BLUETOOTH_SETTINGS, "Bluetooth")
     fun openDisplaySettings() = openSettingsScreen(Settings.ACTION_DISPLAY_SETTINGS, "Display")
     fun openSoundSettings() = openSettingsScreen(Settings.ACTION_SOUND_SETTINGS, "Sound")
-    fun openNotificationSettings() = openSettingsScreen(Settings.ACTION_NOTIFICATION_SETTINGS, "Notification")
+    fun openNotificationSettings() = openSettingsScreen(Settings.ACTION_APP_NOTIFICATION_SETTINGS, "Notification")
 
     /**
      * Opens Application Details in Android System Settings.
