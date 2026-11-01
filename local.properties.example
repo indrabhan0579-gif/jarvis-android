@@ -1,0 +1,9 @@
+## Android SDK Location
+# On macOS: sdk.dir=/Users/<username>/Library/Android/sdk
+# On Windows: sdk.dir=C\:\\Users\\<username>\\AppData\\Local\\Android\\Sdk
+# On Linux: sdk.dir=/home/<username>/Android/Sdk
+sdk.dir=/path/to/your/android/sdk
+
+## Gemini API Key for JARVIS Android
+# Never commit your real API key to git. Place it here for local builds:
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY

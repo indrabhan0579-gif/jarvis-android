@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JARVIS</string>
+    <string name="status_idle">SYSTEM IDLE - AWAITING COMMAND</string>
+    <string name="status_listening">LISTENING TO AUDIO STREAM...</string>
+    <string name="status_thinking">ANALYZING INTENT VIA GEMINI NEURAL CORE...</string>
+    <string name="status_speaking">TRANSMITTING VOICE PROTOCOL...</string>
+    <string name="status_executing">EXECUTING SUBSYSTEM DIRECTIVE...</string>
+
+    <string name="perm_mic_rationale">Microphone access is required for real-time voice speech recognition with JARVIS.</string>
+    <string name="perm_camera_rationale">Camera permission is required solely to toggle the hardware LED flashlight / torch.</string>
+    <string name="perm_notif_rationale">Notification permission is required on Android 13 to post reminders and assistant alerts.</string>
+</resources>
