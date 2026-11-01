@@ -2,7 +2,7 @@ name: Build JARVIS APK
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [ master ]
 permissions:
   contents: read
   actions: read
@@ -18,7 +18,7 @@ jobs:
           distribution: temurin
           java-version: '17'
       - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
       - name: Accept Android SDK licenses
         run: yes | sdkmanager --licenses
       - name: Install Android platform
